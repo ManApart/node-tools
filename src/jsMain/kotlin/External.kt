@@ -6,6 +6,7 @@ import kotlin.js.Promise
 external object fs {
     fun readFileSync(path: String, encoding: String): String
     fun writeFileSync(path: String, content: String)
+    fun appendFileSync(path: String, content: String)
     fun writeFileSync(path: String, content: BufferInstance)
     fun existsSync(path: String): Boolean
     fun createWriteStream(fileName: String): WriteStream

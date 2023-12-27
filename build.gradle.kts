@@ -21,6 +21,7 @@ kotlin {
         val jsMain by getting {
             dependencies {
                 implementation(npm("bimg", "^0.1.0"))
+                implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3")
             }
         }
     }
