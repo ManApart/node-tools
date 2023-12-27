@@ -5,5 +5,5 @@
 
 ```
 ./gradlew build
-node build/js/packages/node-tools/kotlin/node-tools.js
+node build/js/packages/node-tools/kotlin/node-tools.js dalle
 ```
