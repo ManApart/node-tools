@@ -2,6 +2,8 @@ plugins {
     kotlin("multiplatform") version "1.9.22"
 }
 
+val kotlinWrappersVersion = "1.0.0-pre.674"
+
 group = "org.manapart"
 version = "1.0-SNAPSHOT"
 
