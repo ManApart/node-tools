@@ -42,5 +42,5 @@ bin/
 
 ### Mac OS ###
 .DS_Store
-dalle/
+/dalle/
 config.json

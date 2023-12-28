@@ -10,6 +10,7 @@ external object fs {
     fun writeFileSync(path: String, content: BufferInstance)
     fun existsSync(path: String): Boolean
     fun createWriteStream(fileName: String): WriteStream
+    fun watchFile(fileName: String, handler: () -> Unit): WriteStream
 }
 
 @JsModule("fs")
